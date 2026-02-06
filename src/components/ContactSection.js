@@ -26,7 +26,7 @@ const ContactSection = () => {
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
       .then(() => alert("Message sent successfully!"))
-      .catch(() => alert("Failed to send message. Please try again."));
+      .catch(() => alert("Failed to send message. Please try again later"));
   };
 
   return (

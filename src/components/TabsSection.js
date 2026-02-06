@@ -33,9 +33,8 @@ const TabsSection = () => (
         {/* About Me */}
         <TabPanel>
           <VStack spacing={6} align="start">
-            <Text fontSize="lg" color="gray.500">
-              I'm a React.js Developer with 2+ years of experience building
-              scalable web apps using React, Redux, and TypeScript. I specialize
+            <Text fontSize="lg" color="gray.500">My name is Dilip Sindhav. I am a Frontend Developer with 3 years of experience building
+              scalable web apps using React, Next, Redux, and TypeScript. I specialize
               in component optimization, REST API integration, and writing
               clean, testable code.
             </Text>
@@ -44,6 +43,9 @@ const TabsSection = () => (
               performance with lazy loading and memoization, and written
               automated tests using Jest and RTL. My passion lies in building
               responsive, accessible user interfaces.
+            </Text>
+            <Text fontSize="lg" color="gray.500">
+              I am a quick learner with a self-learning attitude. I love to learn and explore new technologies  . I am available for any kind of job opportunity that suits my skills and interests.
             </Text>
           </VStack>
         </TabPanel>
@@ -55,7 +57,7 @@ const TabsSection = () => (
               React.js
             </Badge>
             <Badge colorScheme="blue" p={2}>
-              JavaScript
+              Next.js
             </Badge>
             <Badge colorScheme="purple" p={2}>
               TypeScript
@@ -64,16 +66,16 @@ const TabsSection = () => (
               Redux
             </Badge>
             <Badge colorScheme="orange" p={2}>
-              REST APIs
+              JavaScript
             </Badge>
             <Badge colorScheme="pink" p={2}>
               Jest
             </Badge>
             <Badge colorScheme="gray" p={2}>
-              Docker
+              REST APIs
             </Badge>
             <Badge colorScheme="red" p={2}>
-              PostgreSQL
+              Docker
             </Badge>
             <Badge colorScheme="cyan" p={2}>
               Git
@@ -84,6 +86,49 @@ const TabsSection = () => (
         {/* Projects */}
         <TabPanel>
           <VStack spacing={6} align="start">
+            <Box borderWidth="1px" borderRadius="lg" p={4} w="100%">
+              <Heading size="md" color="teal.400" mb={2}>
+                Meditab Employee Management
+              </Heading>
+              <Text color="gray.500" mb={2}>
+                Implemented optimized state management and API integration using Redux Toolkit and React Query,
+                reducing redundant network calls by 30%. <br />
+
+                Enhanced performance and reusability by modularizing UI components and applying lazy loading, improving
+                dashboard load time by 25%. <br />
+
+                Collaborated with UI/UX and QA teams to deliver a responsive, accessible, and scalable product used daily
+                by 2000+ internal employees. <br />
+
+              </Text>
+              <HStack spacing={4}>
+                <Badge colorScheme="teal">React</Badge>
+                <Badge colorScheme="orange">Redux Toolkit</Badge>
+                <Badge colorScheme="blue"> TypeScript</Badge>
+                <Badge colorScheme="orange">Tailwind CSS</Badge>
+              </HStack>
+            </Box>
+
+            <Box borderWidth="1px" borderRadius="lg" p={4} w="100%">
+              <Heading size="md" color="teal.400" mb={2}>
+                Open-Mart E-Commerce Platform
+              </Heading>
+              <Text color="gray.500" mb={2}>
+                - Developed a fully responsive e-commerce web application for kids toys with product listing, variant selection,
+                cart, and checkout flows. <br />
+                - Implemented global state management using Redux Toolkit to handle cart, authentication, and product persis-
+                tence across routes. <br />
+                - Integrated secure API communication for product catalog, order creation, and payment validation. <br />
+                - Optimized UI performance through lazy loading, memoization, and code-splitting to reduce load time. <br />
+              </Text>
+              <HStack spacing={4}>
+                <Badge colorScheme="teal">React</Badge>
+                <Badge colorScheme="orange">Redux</Badge>
+                <Badge colorScheme="blue"> React Router</Badge>
+                <Badge colorScheme="orange">REST APIs</Badge>
+              </HStack>
+            </Box>
+
             <Box borderWidth="1px" borderRadius="lg" p={4} w="100%">
               <Heading size="md" color="teal.400" mb={2}>
                 Smart Inventory Management System
@@ -105,7 +150,7 @@ const TabsSection = () => (
                 Personal Portfolio Website
               </Heading>
               <Text color="gray.500" mb={2}>
-                A responsive React.js portfolio to showcase projects and blogs.
+                A responsive React.js portfolio to showcase projects and skills.
                 Integrated GitHub previews, email services, and a theme toggle.
               </Text>
               <HStack spacing={4}>
@@ -128,15 +173,15 @@ const TabsSection = () => (
                 Jan 2023 – Present
               </Text>
               <Text color="gray.400" fontSize="sm">
-                - Developed reusable React components and integrated RESTful
-                APIs
+                - Developed and maintained the Meditab Employee Management (MEM) internal HR platform using React,
+                Redux Toolkit, TypeScript, and Tailwind CSS. <br />
+                - Implemented optimized state management and API integration using Redux Toolkit and React Query,
+                reducing redundant network calls by 30%.<br />
+                - Enhanced performance and reusability by modularizing UI components and applying lazy loading, improving
+                dashboard load time by 25%.<br />
+                - Collaborated with UI/UX and QA teams to deliver a responsive, accessible, and scalable product used daily
+                by 2000+ internal employees.
                 <br />
-                - Used Redux and Context API for state management
-                <br />
-                - Applied performance optimizations (lazy loading, memoization)
-                <br />
-                - Implemented unit tests using Jest & React Testing Library
-                <br />- Worked with cross-functional teams on responsive UI
               </Text>
             </Box>
 
